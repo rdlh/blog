@@ -41,7 +41,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://rdlh.io
+url:         http://blog.rdlh.io
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -62,7 +62,7 @@ permalink:     pretty
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      maruku
+markdown:      redcarpet
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
@@ -73,13 +73,6 @@ host:        0.0.0.0
 port:        4000
 baseurl:     /
 lsi:         false
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 rdiscount:
   extensions: []
